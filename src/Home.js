@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import './index.css';
 import Bloglist from "./Bloglist";
 
 const Home = () => {
