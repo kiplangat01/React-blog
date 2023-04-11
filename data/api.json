@@ -1,0 +1,46 @@
+{
+   "blogs": [
+    {
+        "title": "Queen Elizabeth Morale",
+        "description": "It's worth remembering that it is often the small steps, not the giant leaps, that bring about the most lasting change.",
+        "body": "After seven decades on the throne, Queen Elizabeth II's legacy will never be forgotten. Her uncle's surprise abdication made her father the King - and Elizabeth ascended the throne at just 25 when he died. She quickly took over and held onto the crown until her death in September 2022, making her the U.K's longest-serving monarch. Despite many family scandals - including the infamous “annus horribilis” - the Queen remained a rock in the U.K.'s foundation.",
+        "author": "Peter",
+        "id": 1
+    },
+    {
+        "title": "Irene Cara motivation",
+        "description": "Women in music can be sexy and alluring and fabulous and hip and cool, and still be about music",
+        "body": "Singer-songwriter and actress, Irene Cara, catapulted to fame with a starring role in the 1980 movie “Fame,” for which she also performed its titular song. Her artistry started long before “Fame,” however, when she began releasing her own music at eight years old and began performing in Off-Broadway productions when she was 10. She eventually created a nine-piece all-female band in 1999 called Hot Caramel.",
+        "author": "John",
+        "id": 2
+    },
+    {
+        "title": "Dorothy fight",
+        "description": "My [job] is to be a woman and to talk about it and not allow the media to insult me or anybody else and do what I need to do.",
+        "body": "In collaboration with fellow activist Gloria Steinem, Dorothy Pitman Hughes fought against gender and racial inequities in the late 1960s through the 1970s. Pitman Hughes inspired Steinam to create Ms. Magazine, a feminist publication. Pitman-Hughes and Steinem also co-founded the Women's Action Alliance. The WAA's goal in its active years (1971-1997) was to connect local activists on a national level.",
+        "author": "Nobie",
+        "id": 3
+    },
+    {
+        "title": "Naomi's duo",
+        "description": "There can always be healing, even if there is no cure.",
+        "body": "Naomi Judd was best known for being one-half of the country-music duo, The Judds, with her daughter, Wynonna. From 1983 to 1991, the duo won five Grammys, nine Country Music Awards, and eight Academy of Country Music Awards. Naomi died by suicide following a long battle with mental illness the week The Judds was inducted into the Country Music Hall of Fame. Wynonna is taking The Judds on tour in 2023 with special guests, in honor of her mother.",
+        "author": "Mesh",
+        "id": 4
+    },
+    {
+        "title": "Miss USA 2019",
+        "description": "I wasn't searching to collect more awards or recognition during my reign",
+        "body": "Miss USA 2019 Cheslie Kryst, who died by suicide at 31, was more than a pageant queen. After earning an MBA and law degree in grad school, Kryst worked as an attorney for a civil litigation firm and offered pro bono representation to prisoners sentenced on low-level drug charges. She also worked with The Buried Alive Project to help a client serving a life-sentence in 2020.",
+        "author": "Kiip",
+        "id": 5
+    },
+    {
+        "title": "Lansbury's legacy",
+        "description": "I hope my legacy has enabled people to get out of their own lives",
+        "body": "Angela Lansbury was an understated legend on both screen and stage, with six Tony Awards and six Golden Globes. She never saw herself playing the “leading lady” characters, which she expressed (along with the above statement) in a 2010 video interview with The New York Times, which she agreed would only be released after her death. She still made a splash in the entertainment industry, redefining women's roles with her complex and enticing characters",
+        "author": "Jacob",
+        "id": 6
+    }
+   ]
+}
