@@ -8,7 +8,9 @@ const Bloglist = (props) => {
         <div className="blog-list">
              {blogs.map((blog) => (
                 <div className="blog-preview card"  key={blog.id}>
+                    <img src= { blog.image } alt="" />
                     <div class="card-body">
+                       
                     <h2 class="card-title">{ blog.title }</h2>
                     <h6 class="card-text">{ blog.description}</h6>
                     <p>writen by: { blog.author }</p>
