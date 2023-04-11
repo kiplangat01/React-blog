@@ -1,3 +1,31 @@
-.card{
-  width:300px
+* {
+  box-sizing: border-box;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+  width:300px;
+  margin: 20px;
+  height: 50%;
+}
+
+  
+.cardimg{
+  height: 200px;
+}
+
+
+.blog-list{
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+
+
+
+
+
+
