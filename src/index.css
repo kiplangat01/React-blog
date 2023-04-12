@@ -3,6 +3,7 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(84, 115, 146);
 }
 
 .card{
@@ -11,7 +12,13 @@ body {
   height: 50%;
 }
 
-  
+section{
+  background-image: url("/public/images/barner.avif");
+  background-size: cover;
+  height: 500px;
+  width: 1347px;
+  background-repeat: no-repeat;
+}
 .cardimg{
   height: 200px;
 }

@@ -20,6 +20,7 @@ const Home = () => {
     })
     return ( 
         <div className="home">
+            <section><h1>Motivation </h1></section>
            {blogs && <Bloglist blogs={blogs} handleDelet e={  handleDelete } />}
         </div>
      );
