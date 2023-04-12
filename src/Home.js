@@ -22,7 +22,7 @@ const Home = () => {
     })
     return ( 
         <div className="home">
-          { isPending && <div><h5>loading...</h5></div>}
+          { isPending && <div><h5>wait a minute</h5></div>}
             <section><h1>Motivation </h1></section>
            {blogs && <Bloglist blogs={blogs} handleDelet e={  handleDelete } />}
         </div>
