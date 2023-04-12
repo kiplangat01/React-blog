@@ -16,7 +16,7 @@ section{
   background-image: url("/public/images/barner.avif");
   background-size: cover;
   height: 500px;
-  width: 1347px;
+  width: 1030px;
   background-repeat: no-repeat;
 }
 .cardimg{
@@ -26,6 +26,7 @@ section{
 
 .blog-list{
   display: flex;
+  
   flex-wrap: wrap;
   height: 300px;
 }

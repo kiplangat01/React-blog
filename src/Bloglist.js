@@ -6,6 +6,7 @@ const Bloglist = (props) => {
     const handleDelete = props.handleDelete
     return ( 
         <div className="blog-list container">
+          <section><h1>Motivation </h1></section>
              {blogs.map((blog) => (
                <div className="row">
                  <div className="col-sm-4">
