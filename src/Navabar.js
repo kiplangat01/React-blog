@@ -1,3 +1,4 @@
+
 import './index.css';
 const Navbar = () => {
     return ( 
@@ -11,16 +12,17 @@ const Navbar = () => {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <link to="Home"></link>
+          <a class="nav-link" href="/post">Post Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" >Disabled</a>
+          <a class="nav-link " href="#" tabindex="-1" >Contact</a>
         </li>
       </ul>
     </div>

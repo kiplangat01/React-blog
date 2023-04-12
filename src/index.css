@@ -6,6 +6,10 @@ body {
   background-color: rgb(84, 115, 146);
 }
 
+nav{
+  background-color: transparent;
+}
+
 .card{
   width:300px;
   margin: 20px;
