@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 function PostForm() {
   const [title, setTitle] = useState('');
@@ -6,17 +7,21 @@ function PostForm() {
   const [body, setBody] = useState('');
   const [description, setDescription] = useState('');
   const [author, setAuthor] = useState('');
+  const [isPending, seIspending ]= useState(false);
+  const redirect = useHistory();
 
   const handleSubmit = (event) => {
     event.preventDefault();
     const blog = {title, image, body, description, author};
-
+    seIspending(true);
     fetch('http://localhost:8000/blogs',{
         method: 'POST',
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(blog)
     }).then(() => {
         console.log('new blog added')
+        seIspending(false)
+        redirect.push('/')
     })
   };
 
@@ -52,7 +57,8 @@ function PostForm() {
         <input type="text" value={author} onChange={(event) => setAuthor(event.target.value)} />
       </label>
       <br />
-      <button type="submit">Submit</button>
+      { !isPending && <button type="submit">Post</button> }
+      { isPending && <button type="submit">posting...</button> }
     </form>
   );
 }
